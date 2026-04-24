@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GlobalSwineManagementFarmer.Api/GlobalSwineManagementFarmer.Api.csproj" />
+  <Project Path="GlobalSwineManagementFarmer.Tests/GlobalSwineManagementFarmer.Tests.csproj" />
+</Solution>

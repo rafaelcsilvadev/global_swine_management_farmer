@@ -1,0 +1,93 @@
+# ──────────────────────────────────────────────
+# .NET Build Output
+# ──────────────────────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ──────────────────────────────────────────────
+# NuGet
+# ──────────────────────────────────────────────
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+!**/Properties/PublishProfiles/
+
+# ──────────────────────────────────────────────
+# MSBuild / Rider / VS / VSCode
+# ──────────────────────────────────────────────
+.vs/
+.idea/
+.vscode/
+*.csproj.user
+*.pidb
+*.svclog
+*.scc
+_ReSharper*/
+*.DotSettings.user
+.ionide/
+
+# ──────────────────────────────────────────────
+# Test Results
+# ──────────────────────────────────────────────
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+TestResults/
+
+# ──────────────────────────────────────────────
+# Publish / Deploy
+# ──────────────────────────────────────────────
+publish/
+PublishOutput/
+**/Properties/launchSettings.json
+
+# ──────────────────────────────────────────────
+# Entity Framework Migrations (opcional — remova se quiser versionar)
+# ──────────────────────────────────────────────
+# **/Migrations/
+
+# ──────────────────────────────────────────────
+# Segredos e variáveis de ambiente
+# ──────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+**/secrets/
+
+# ──────────────────────────────────────────────
+# Docker
+# ──────────────────────────────────────────────
+.dockerignore
+
+# ──────────────────────────────────────────────
+# OS específicos
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ──────────────────────────────────────────────
+# Temporários
+# ──────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
